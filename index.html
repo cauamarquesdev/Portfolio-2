@@ -286,6 +286,18 @@
     <p class="copyright">
     © Cauã Marques | All Right Reserved
     </p>
-</footer>    
+</footer>
+
+<script>
+  const menuIcon = document.querySelector('#menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
+
+        
 </body>
 </html>
